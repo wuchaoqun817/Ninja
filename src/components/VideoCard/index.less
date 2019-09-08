@@ -1,0 +1,35 @@
+.videoCardMain {
+  height: 350px;
+  width: 346px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,.05);
+  border-radius: 8px;
+  overflow: hidden;
+  .videoBox {
+    width: 100%;
+    height: 55%;
+    background-color: #cfcfcf;
+  }
+  .videoInfoBox {
+    padding: 15px;
+    height: calc(45% - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .title {
+      font-size: 24px;
+      line-height: 30px;
+      display: -webkit-box;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-break: break-all;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+    .name {
+      font-size: 22px;
+      margin-left: 10px;
+      color: #adadad;
+    }
+  }
+}
